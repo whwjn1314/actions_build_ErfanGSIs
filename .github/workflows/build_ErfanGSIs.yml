@@ -43,6 +43,7 @@ jobs:
        - name: Setting up ErfanGSI requirements
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs
+              
               mkdir ./output
               sudo bash ./setup.sh
        
